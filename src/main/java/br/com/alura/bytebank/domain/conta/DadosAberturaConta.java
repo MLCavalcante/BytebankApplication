@@ -1,0 +1,8 @@
+package br.com.alura.bytebank.domain.conta;
+
+import br.com.alura.bytebank.domain.cliente.DadosCadastroCliente;
+
+import java.math.BigDecimal;
+
+public record DadosAberturaConta(Integer numero, DadosCadastroCliente dadosCliente) {
+}
